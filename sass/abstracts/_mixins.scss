@@ -1,0 +1,15 @@
+@mixin themeable($theme-name, $container-bg) {
+    .#{$theme-name} {
+        .container {
+            background-color: $container-bg;
+        }
+
+        .left {
+            background-color: blueviolet;
+        }
+
+        .right {
+            background-color: coral;
+        }
+    }
+}

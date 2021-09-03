@@ -1,0 +1,19 @@
+{
+  "name": "potential-pancake",
+  "version": "1.0.0",
+  "description": "Sass Practice",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass sass/style.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittywizard/potential-pancake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittywizard/potential-pancake/issues"
+  },
+  "homepage": "https://github.com/kittywizard/potential-pancake#readme"
+}

@@ -1,0 +1,10 @@
+@import "abstracts/mixins";
+
+.container {
+    padding: 4rem;
+    background-color: aqua;
+}
+
+body {
+    @include themeable(dark, #4455ee);
+}
