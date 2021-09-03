@@ -3,8 +3,14 @@
 .container {
     padding: 4rem;
     background-color: aqua;
+    font-family: sans-serif;
+    @include test(row);
 }
 
-body {
-    @include themeable(dark, #4455ee);
+// .dark {
+//     @include themeable(#4455ee);
+// }
+
+.default {
+    background-color: darkgrey;
 }

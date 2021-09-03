@@ -1,5 +1,5 @@
-@mixin themeable($theme-name, $container-bg) {
-    .#{$theme-name} {
+@mixin themeable($container-bg) {
+    
         .container {
             background-color: $container-bg;
         }
@@ -11,5 +11,11 @@
         .right {
             background-color: coral;
         }
-    }
+    
+}
+
+@mixin test($direction) {
+    display: flex;
+    flex-direction: $direction;
+
 }

@@ -1,16 +1,13 @@
 .container {
   padding: 4rem;
   background-color: aqua;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
-body .dark .container {
-  background-color: #4455ee;
-}
-body .dark .left {
-  background-color: blueviolet;
-}
-body .dark .right {
-  background-color: coral;
+.default {
+  background-color: darkgrey;
 }
 
 /*# sourceMappingURL=style.css.map */
