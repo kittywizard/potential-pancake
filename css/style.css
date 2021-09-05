@@ -6,6 +6,16 @@
   flex-direction: row;
 }
 
+.dark .container {
+  background-color: #4455ee;
+}
+.dark .left {
+  background-color: blueviolet;
+}
+.dark .right {
+  background-color: coral;
+}
+
 .default {
   background-color: darkgrey;
 }

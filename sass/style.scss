@@ -7,9 +7,9 @@
     @include test(row);
 }
 
-// .dark {
-//     @include themeable(#4455ee);
-// }
+.dark {
+    @include themeable(#4455ee);
+}
 
 .default {
     background-color: darkgrey;
